@@ -1,0 +1,16 @@
+img {
+    width: 150px;
+    height: 150px;
+    /* object-fit: cover; */
+    margin: 14px 14px;
+    border-top-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+    transition: .5s;
+}
+
+img:hover {
+    border-top-left-radius: 0%;
+    border-bottom-right-radius: 0%;
+    border-top-right-radius: 50%;
+    border-bottom-left-radius: 50%;
+}
